@@ -15,7 +15,7 @@ const Phonebook = () => {
 
       {isError && <p>Things went south.. =( Please try again.</p>}
       {isLoading ? (
-        <b>Загружаем материалы</b>
+        <p>Contacts are loading...</p>
       ) : (
         <>
           <h2>Contacts</h2>
